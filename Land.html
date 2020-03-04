@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Land</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Css/Style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </head>
+    <body>
+        <!--        container-fluid for entire page-->
+        <div class="container-fluid p-0">
+
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html"><span class="title">Japan</span></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link h2 my-0" href="Culture.html">Culture</a>
+                            <a class="nav-item nav-link h2 my-0" href="Land.html">Land</a>
+                            <a class="nav-item nav-link h2 my-0" href="Living.html">Living</a>
+                            <a class="nav-item nav-link h2 my-0" href="About.html">About</a>
+                        </div>
+                    </div>
+                </nav>
+                <img class="banner fixBanner" src="Images/banner3.jpg" alt="Japan Mount Fuji and building image">
+            </header>
+            <main>
+                <!--NAV BAR LAND -->
+                <ul class="nav nav-tabs text-white bg-dark" id="myTab" role="tablist">
+                    <li class="nav-item  menu-item item1">
+                        <a class="nav-link active" id="location-tab" data-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="true">Location</a>
+                    </li>
+
+                    <li class="nav-item  menu-item item2">
+                        <a class="nav-link" id="cities-tab" data-toggle="tab" href="#cities" role="tab" aria-controls="cities" aria-selected="false">Important Cities</a>
+                    </li>
+                    <li class="nav-item  menu-item item3">
+                        <a class="nav-link" id="landmarks-tab" data-toggle="tab" href="#landmarks" role="tab" aria-controls="landmarks" aria-selected="false">Famous Landmarks</a>
+                    </li>
+                    <li class="nav-item  menu-item item4">
+                        <a class="nav-link" id="natFeatures-tab" data-toggle="tab" href="#natFeatures" role="tab" aria-controls="natFeatures" aria-selected="false">Natural Features</a>
+                    </li>
+                </ul> <!--END NAV BAR LAND -->
+
+                <!--LAND TAB CONTENT -->
+                <div class="tab-content" id="myTabContent">
+                    <!--LOCATION CONTENT-->
+                    <div class="tab-pane fade show active" id="location" role="tabpanel" aria-labelledby="location-tab">
+                        <div class="jumbotron">
+                            <h1 class="display-4">Japan is an island country comprising a stratovolcanic archipelago over 3,000 km</h1>
+                            <p class="lead">Siting along East Asia's Pacific coast, it consists of 6,852 islands.</p>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <img id="land-location-map" class="image-fluid m-auto" src="Images/map.jpg" alt="Map of Japan image">
+                                </div>
+                                <div class="col-xl-9">
+                                    <p class="text-left">The 5 main islands are Hokkaido, Honshu, Kyushu, Shikoku and Okinawa. There are 6,847 'remote islands'. The Ryukyu Islands and Nanpō Islands are south and east of the main islands.
+                                    <p class="text-left">The territory extends 377,975.24 km2 (145,937.06 sq mi). It is the 4th largest island country in the world and the largest island country in East Asia. Japan has the sixth longest coastline 29,751 km (18,486 mi) and the eighth largest Exclusive Economic Zone of 4,470,000 km2 (1,730,000 sq mi) in the world.</p>
+                                    <p class="text-left">The terrain is mostly rugged and mountainous with 66% forest. The population is clustered in urban areas on the coast, plains and valleys. Japan is located in the northwestern Ring of Fire on multiple tectonic plates. East of the Japanese archipelago are three oceanic trenches. The Japan Trench is created as the oceanic Pacific Plate subducts beneath the continental Okhotsk Plate. The continuous subduction process causes frequent earthquakes, tsunami and stratovolcanoes. The islands are also affected by typhoons. The subduction plates have pulled the Japanese archipelago eastward, created the Sea of Japan and separated it from the Asian continent by back-arc spreading 15 million years ago.</p>
+                                    <p class="text-left">The climate of the Japanese archipelago varies from humid continental in the north (Hokkaido) to humid subtropical and tropical rainforest in the south (Okinawa Prefecture). These differences in climate and landscape have allowed the development of a diverse flora and fauna, with some rare endemic species, especially in the Ogasawara Islands.</p>
+                                    <p class="text-left">Japan extends from 20° to 45° north latitude (Okinotorishima to Benten-jima) and from 122° to 153° east longitude (Yonaguni to Minami Torishima). Japan is surrounded by seas. To the north the Sea of Okhotsk separates it from the Russian Far East, to the west the Sea of Japan separates it from the Korean Peninsula, to the southwest the East China Sea separates the Ryukyu Islands from China and Taiwan, to the east is the Pacific Ocean.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--END LOCATION CONTENT-->
+
+                    <!--CONTENT IMPORTANT CITIES-->
+                    <div class="tab-pane fade show" id="cities" role="tabpanel" aria-labelledby="cities-tab">
+
+                        <div class="jumbotron">
+                            <h1 class="display-4">Some of Japan's important cities are Tokyo, Osaka, Kyoto, Sapporo, Hiroshima, and Okinawa</h1>
+                            <p class="lead">Check out bellow some interresting information about them.</p>
+                        </div>
+                        <div class="container-fluid">
+
+                            <div class="row my-3">
+                                <div class="col-lg-8">
+                                    <p class="h1">Tokyo</p>
+                                    <p class="text-left">Tokyo inarguably is Japan’s most-well known city. The <span class="text-primary" data-toggle="tooltip" title="home to upwards of 35 million people">Tokyo</span> Metropolis is made up of 23 Special Wards. It is also known for having the world’s busiest pedestrian crossing, known as Shibuya Scramble, and what many would say is the busiest train station in the world, in Shinjuku. Tokyo also is the center of otaku culture in Akihabara with a plethora of game, anime, and electronics shops; while the Harajuku and Shibuya districts are known worldwide for their contributions to fashion and kawaii (cute) culture. However, traditional culture is still very much alive in Tokyo, with a number of shrines and temples throughout the city, festivals held throughout the year, and also the world’s largest sumo stadium.</p>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <img class="rounded img-fluid" src="Images/land/cities/tokyo.jpg" alt="Tokyo image">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <table class="table table-borderless table-dark">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prefecture:</td>
+                                                <td class="bg-secondary">Tokyo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recommended to Travelers Who Like:</td>
+                                                <td class="bg-secondary">Big city thrills, the latest technology, trend spots</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Points of Interest:</td>
+                                                <td class="bg-secondary">Tokyo Tower, Tokyo Skytree, Shibuya Crossing, Sensoji Temple, Meiji Shrine, Ryogoku Kokugikan (the National Sumo Hall), Otaku and Kawaii Culture Spots</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Famous Foods:</td>
+                                                <td class="bg-secondary">Monjayaki (pan-fried batter and various ingredients), ningyo-yaki (baked cake in the shape of a doll), kintaro-ame (a traditional candy)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col-lg-8">
+                                    <p class="h1">Osaka</p>
+                                    <p class="text-left">Osaka is the largest city in the Kansai region and one of the largest in Japan, but what it’s really known for is its lively and colorful character, from its distinct dialect to its cuisine that has become popular throughout Japan. Osaka is a great place to experience a unique urban atmosphere, with entertainment for both adults and kids. Osaka has one of the world’s largest public aquariums and is home to Universal Studios Japan. And no trip to Osaka would be complete without a visit to the entertainment district of Dotonbori, with its iconic neon sign boards, countless restaurants, and amusement facilities. Osaka also has places to enjoy traditional Japanese culture and history, such as Osaka Castle, Sumiyoshi Taisha Shrine, and even Bunraku puppet shows.</p>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <img class="rounded img-fluid" src="Images/land/cities/osaka.jpg" alt="Osaka image">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <table class="table table-borderless table-dark">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prefecture:</td>
+                                                <td class="bg-secondary">Osaka</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recommended to Travelers Who Like:</td>
+                                                <td class="bg-secondary">An urban area with a lively character and charm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Points of Interest:</td>
+                                                <td class="bg-secondary">Dotonbori (nightlife district), Osaka Castle, Osaka Aquarium Kaiyukan, Universal Studios Japan, Kuchu Teien Observatory, Sumiyoshi Taisha Shrine</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Famous Foods:</td>
+                                                <td class="bg-secondary">Takoyaki, okonomiyaki, yakiniku, kitsune (deep fried tofu) udon, taiko manju (a baked sweet filled with azuki bean paste that is shaped like a taiko drum)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col-lg-8">
+                                    <p class="h1">Kyoto</p>
+                                    <p class="text-left">Kyoto was the official capital of Japan for over 1,000 years and remains one of the foremost destinations to experience traditional Japanese culture. The city has around 2,000 temples and shrines, including the “Golden Pavilion,” Kinkakuji, Ryoanji known for its zen rock garden, and Fushimi Inari Taisha, the shrine with a tunnel of 5,000 vermillion torii gates. One of the most talked-about areas of Kyoto is the “geisha district” of Gion. While geiko (the Kyoto term for geisha) and maiko (apprentice geiko) are known for being elusive, if you are lucky, you just may encounter one of the kimono-adorned beauties taking a stroll! Art and history lovers will also not want to miss the Kyoto National Museum, which houses over 230 designated National Treasures and Important Cultural Properties.</p>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <img class="rounded img-fluid" src="Images/land/cities/kyoto.jpg" alt="Kyoto image">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <table class="table table-borderless table-dark">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prefecture:</td>
+                                                <td class="bg-secondary">Kyoto</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recommended to Travelers Who Like:</td>
+                                                <td class="bg-secondary">traditional culture</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Points of Interest:</td>
+                                                <td class="bg-secondary">Fushimi Inari Shrine, Kiyomizudera Temple, Kinkakuji (Golden Pavilion), Ryoan-ji Temple, Gion (geisha district), Kyoto National Museum</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Famous Foods:</td>
+                                                <td class="bg-secondary">kaiseki ryori (multi-course Japanese haute cuisine), yuba (tofu skin), shojin ryori (Buddhist vegetarian cuisine), yatsuhashi (a cinnamon mochi confectionary filled with red bean paste or other flavors)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col-lg-8">
+                                    <p class="h1">Sapporo</p>
+                                    <p class="text-left">Sapporo, in Hokkaido Prefecture, is Japan’s northernmost major city. The chilly climate makes it the ideal destination for people who enjoy the winter season. The city is the site of the famous Sapporo Snow Festival, an event held each February showcasing an array of marvelous ice and snow sculptures that is visited by about 2 million people each year! Athletic types can visit the Sapporo Winter Sports Museum, which showcases the legacy of the 1972 Winter Olympics, or they can hit the slopes, skiing or snowboarding in one of the city’s nearby ski resorts. And of course, not to be missed is Sapporo’s delectable seafood cuisine, revered throughout Japan!</p>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <img class="rounded img-fluid" src="Images/land/cities/sapporo.jpg" alt="Sapporo image">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <table class="table table-borderless table-dark">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prefecture:</td>
+                                                <td class="bg-secondary">Sapporo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recommended to Travelers Who Like:</td>
+                                                <td class="bg-secondary">the winter season and fresh seafood, produce, and dairy products</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Points of Interest:</td>
+                                                <td class="bg-secondary">Sapporo Snow Festival, Sapporo Beer Museum, Shiroi Koibito Park (cookie factory), Sapporo Factory (shopping and entertainment complex), seafood markets</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Famous Foods:</td>
+                                                <td class="bg-secondary">kaisen-don (a seafood rice bowl), soup curry, Genghis Khan (barbecued mutton), miso ramen, soft serve ice cream</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col-lg-8">
+                                    <p class="h1">Hiroshima</p>
+                                    <p class="text-left">Sapporo, in Hokkaido Prefecture, is Japan’s northernmost major city. The chilly climate makes it the ideal destination for people who enjoy the winter season. The city is the site of the famous Sapporo Snow Festival, an event held each February showcasing an array of marvelous ice and snow sculptures that is visited by about 2 million people each year! Athletic types can visit the Sapporo Winter Sports Museum, which showcases the legacy of the 1972 Winter Olympics, or they can hit the slopes, skiing or snowboarding in one of the city’s nearby ski resorts. And of course, not to be missed is Sapporo’s delectable seafood cuisine, revered throughout Japan!</p>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <img class="rounded img-fluid" src="Images/land/cities/hiroshima.jpg" alt="Hiroshima image">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <table class="table table-borderless table-dark">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prefecture:</td>
+                                                <td class="bg-secondary">Hiroshima</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recommended to Travelers Who Like:</td>
+                                                <td class="bg-secondary">History and places for peaceful reflection</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Points of Interest:</td>
+                                                <td class="bg-secondary">Hiroshima Peace Memorial Park, Hiroshima Castle, Shukkeien Garden, Memorial Cathedral for World Peace, Hiroshima Gokoku Shrine, Hiroshima Peace Pagoda</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Famous Foods:</td>
+                                                <td class="bg-secondary">Oysters, Hiroshima-style okonomiyaki, Hiroshima Tsukemen (a cold and spicy dipping ramen), Momiji Manju (maple leaf shaped cakes filled with azuki bean jam)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="row my-3">
+                                <div class="col-lg-8">
+                                    <p class="h1">Okinawa</p>
+                                    <p class="text-left">The last destination on our list is not actually a city! Because of its unique geography, it made sense to include Okinawa Prefecture as a whole. Okinawa is Japan’s southernmost prefecture, made up of 160 islands. It is known for its subtropical climate that is home to many rare species of plants and animals. White sand beaches and clear, blue waters of colorful fish make Okinawa the prime place to visit for those interested in swimming, snorkeling, and scuba diving, while still exploring Japan. This collection of islands, known also by its older name, Ryukyu, have a unique culture of its own, which has been integrated into the more typically represented traditional Japanese culture.</p>
+                                </div>
+                                <div class="col-lg-4 mx-auto">
+                                    <img class="rounded img-fluid" src="Images/land/cities/okinawa.jpg" alt="Okinawa image">
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <div class="col">
+                                    <table class="table table-borderless table-dark">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prefecture:</td>
+                                                <td class="bg-secondary">Okinawa</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recommended to Travelers Who Like:</td>
+                                                <td class="bg-secondary">Beachside relaxation, watersports</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Points of Interest:</td>
+                                                <td class="bg-secondary">Churaumi Aquarium, Sefa-Utaki (a historical sacred site of the indigenous Okinawan religion), Ocean Expo Park, Shuri Castle, Okinawa Peace Memorial, Tamatorizaki Observatory, various beaches</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Famous Foods:</td>
+                                                <td class="bg-secondary">Goya chanpuru (a dish with bitter melon, egg, tofu, and pork), umibudo (sea grapes), Okinawa soba (wheat noodles in soup) shikuwasa citrus fruit</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> <!--END CONTENT IMPORTANT CITIES-->
+
+                    <!--CONTENT FAMOUS LANDMARKS-->
+                    <div class="tab-pane fade show" id="landmarks" role="tabpanel" aria-labelledby="landmarks-tab">
+                        <div class="jumbotron">
+                            <h1 class="display-4">Japan has remarkable landmarks</h1>
+                            <p class="lead">Check out bellow some interresting information about Arashiyama Bamboo Grove, Kiyomizu-dera, Mount Fuji and the Five Lakes, Fushimi Inari Taisha, Shirakawa-go, and Dotonbori.</p>
+                        </div>
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-md my-5">
+                                    <!--card content-->
+                                    <div class="card history">
+                                        <img class="card-img-top image-fluid" image-fluid src="Images/land/landmarks/arashiyama-bamboo-grove.jpg" alt="Arashiyama Bamboo Grove image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Arashiyama Bamboo Grove</h5>
+                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#bamboo" aria-expanded="false" aria-controls="bamboo">See more</button>
+                                            <div class="collapse" id="bamboo">
+                                                <div class="card card-body">
+                                                    <p class="text-left">OBamboo Forest, or Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan.</p>
+                                                    <p class="text-left">Arashiyama is a district on the western outskirts of Kyoto, Japan. It also refers to the mountain across the Ōi River, which forms a backdrop to the district. Arashiyama is a nationally designated Historic Site and Place of Scenic Beauty.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md my-5">
+                                    <div class="card history">
+                                        <img class="card-img-top image-fluid" image-fluid src="Images/land/landmarks/kiyomizudera.jpg" alt="Kiyomizu-dera image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Kiyomizu-dera</h5>
+                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#kiyomizudera" aria-expanded="false" aria-controls="kiyomizudera">See more</button>
+                                            <div class="collapse" id="kiyomizudera">
+                                                <div class="card card-body">
+                                                    <p class="text-left">Kiyomizudera (清水寺, literally "Pure Water Temple") is one of the most celebrated temples of Japan. It was founded in 780 on the site of the Otowa Waterfall in the wooded hills east of Kyoto, and derives its name from the fall's pure waters. The temple was originally associated with the Hosso sect, one of the oldest schools within Japanese Buddhism, but formed its own Kita Hosso sect in 1965. In 1994, the temple was added to the list of UNESCO world heritage sites.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md my-5">
+                                    <!--card content-->
+                                    <div class="card history">
+                                        <img class="card-img-top image-fluid" image-fluid src="Images/land/landmarks/national-mountain.jpg" alt="Mount Fuji and the Five Lakes image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mount Fuji and the Five Lakes</h5>
+                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#national-mountain" aria-expanded="false" aria-controls="national-mountain">See more</button>
+                                            <div class="collapse" id="national-mountain">
+                                                <div class="card card-body">
+                                                    <p class="text-left">The Fuji Five Lake (Fujigoko) region lies at the northern base of Mount Fuji, about 1000m above sea level, around lakes Kawaguchiko, Saiko, Yamanakako, Shojiko and Motosuko. It is one of the best places to view Mount Fuji from a close distance.</p>
+                                                    <p class="text-left">Among the lakes, Lake Kawaguchiko is the easiest to access and offers outdoor activities such as hiking, camping, fishing and snow sports. In this area, you can easily find ryokan, the traditional Japanese inns, and hot springs.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md my-5">
+                                    <div class="card history">
+                                        <img class="card-img-top image-fluid" image-fluid src="Images/land/landmarks/fushimi-inari-taisha.jpeg" alt="Fushimi Inari Taisha image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fushimi Inari Taisha</h5>
+                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#kiyomizudera" aria-expanded="false" aria-controls="kiyomizudera">See more</button>
+                                            <div class="collapse" id="kiyomizudera">
+                                                <div class="card card-body">
+                                                    <p class="text-left">The magical, seemingly unending path of over 5000 vibrant orange torii gates that wind through the hills behind Fushimi Inari-taisha Shrine makes it one of the most popular shrines in Japan. The walk around the upper precincts is a pleasant day hike. It also makes for a delightfully eerie stroll in the late afternoon and early evening, when the various graveyards and miniature shrines along the path take on a mysterious air.</p>
+                                                    <p class="text-left">This shrine, dedicated to the god of rice and sake in the 8th century, also features dozens of statues of foxes. The fox is seen as the messenger of the god of grain foods, Inari, and the stone foxes are often known by the same name. The keys often depicted in the fox mouths are keys to granaries. This shrine is the central location for some 40,000 Inari shrines throughout the entirety of Japan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md my-5">
+                                    <!--card content-->
+                                    <div class="card history">
+                                        <img class="card-img-top image-fluid" image-fluid src="Images/land/landmarks/shirakawa-go.jpeg" alt="Shirakawa-go image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Shirakawa-go</h5>
+                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#fushimi" aria-expanded="false" aria-controls="fushimi">See more</button>
+                                            <div class="collapse" id="fushimi">
+                                                <div class="card card-body">
+                                                    <p class="text-left">The Shirakawa-go (白川郷, Shirakawagō) and neighboring Gokayama (五箇山) regions line the Shogawa River Valley in the remote mountains that span from Gifu to Toyama Prefectures. Declared a UNESCO world heritage site in 1995, they are famous for their traditional gassho-zukuri farmhouses, some of which are more than 250 years old.</p>
+                                                    <p class="text-left">Gassho-zukuri means "constructed like hands in prayer", as the farmhouses' steep thatched roofs resemble the hands of Buddhist monks pressed together in prayer. The architectural style developed over many generations and is designed to withstand the large amounts of heavy snow that falls in the region during winter. The roofs, made without nails, provided a large attic space used for cultivating silkworms.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md my-5">
+                                    <div class="card history">
+                                        <img class="card-img-top image-fluid" image-fluid src="Images/land/landmarks/dotonbori.jpg" alt="Dotonbori image">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Dotonbori</h5>
+                                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#dotonbori" aria-expanded="false" aria-controls="dotonbori">See more</button>
+                                            <div class="collapse" id="dotonbori">
+                                                <div class="card card-body">
+                                                    <p class="text-left">A bustling commercial street that is representative of the Minami area of Osaka, always busy with playhouses and food shops from the Edo Period to today. One of Osaka's most popular tourist destinations, this street runs parallel to the Dotonbori canal. It is a popular shopping and entertainment district and is also known as a food destination. At night it is lit by hundreds of neon lights and mechanized signs, including the famous Glico Running Man sign and Kani Doraku crab sign.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> <!--END FAMOUS LANDMARKS-->
+
+                    <!--CONTENT NATURAL FEATURES-->
+                    <div class="tab-pane fade show" id="natFeatures" role="tabpanel" aria-labelledby="natFeatures-tab">
+
+                        <div class="jumbotron">
+                            <h1 class="display-4">Japan is an island country that is 70% mountainous.</h1>
+                            <p class="lead">As Japanese archipelago stretches north and south, having many islands, mountains and valleys that split the land, a wide variety of natural environments are observed.</p>
+                            <div class="dropdown w-100">
+                                <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Look some of them</button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <div class="dropdown-item">
+                                        <ul class="nav nav-pills flex-column nav-fill" >
+                                            <li class="nav-item">
+                                                <a class="nav-link active" data-toggle="tab" href="#volcano">Volcanos</a>
+                                            </li>                
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#cave">Caves</a>
+                                            </li>                 
+                                            <li class="nav-item">
+                                                <a class="nav-link" data-toggle="tab" href="#waterfalls">Waterfalls</a>
+                                            </li>                
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <div class="tab-content">
+
+                                        <div id="volcano" class="container-fluid tab-pane active"><br>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h1 class="">Volcanos</h1>
+                                                    <p>Japan has a mountainous interior which is mostly made up of volcanoes. These heights provide plenty of hiking opportunities and scenic viewpoints from which to see the surrounding areas.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row my-4">
+                                                <div class="col-md">
+                                                    <h2 class="country">Mount Aso</h2>
+                                                    <p class="">Mount Aso is the <a href="#" data-toggle="tooltip" title="1,592m">largest</a> active volcano in Japan, and is among the largest in the world. It stands in Aso Kujū National Park in Kumamoto Prefecture, on the island of Kyushu.</p>
+                                                </div>
+                                                <div class="col-md">
+                                                    <img class="rounded img-fluid" src="Images/map/mount-aso.jpg" alt="Mount Aso image">
+                                                </div>
+                                            </div> 
+                                            <div class="row my-4">
+                                                <div class="col-md">
+                                                    <h2 class="country">Mount Ontake</h2>
+                                                    <p class="">Mount Ontake, also referred to as Mount Kiso Ontake, is the 14th highest mountain and second highest volcano in Japan at 3,067 m.</p>
+                                                </div>
+                                                <div class="col-md">
+                                                    <img class="rounded img-fluid" src="Images/map/mount-ontake.jpg" alt="Mount Ontake image">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="cave" class="container-fluid tab-pane"><br>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h1 class="">Caves</h1>
+                                                    <p>Large limestone caves can be found across Japan and offer natural formations like limestone pools, underground waterfalls and streams that were formed millions of years ago. Visitors can explore a portion of these caves via walking courses and marvel at their natural beauty.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row my-4">
+                                                <div class="col-md">
+                                                    <h2 class="country">Akiyoshido</h2>
+                                                    <p class="">Mine City in Yamaguchi Prefecture is home to Akiyoshidai (秋吉台), the plateau with the highest concentration of karst formations in Japan, and Akiyoshido (秋芳洞, Akiyoshidō), the nation's largest and longest limestone cave.</p>
+                                                </div>
+                                                <div class="col-md">
+                                                    <img class="rounded img-fluid" src="Images/map/akiyoshido.jpg" alt="Akiyoshido cave image">
+                                                </div>
+                                            </div> 
+                                            <div class="row my-4">
+                                                <div class="col-md">
+                                                    <h2 class="country">Rysendo</h2>
+                                                    <p class="">Ryūsendō is one of Japan's three largest limestone caverns. It is located in the town of Iwaizumi, Iwate Prefecture, in the Tōhoku region of northern Japan.</p>
+                                                </div>
+                                                <div class="col-md">
+                                                    <img class="rounded img-fluid" src="Images/map/rysendo.jpg" alt="Rysendo cave image">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="waterfalls" class="container-fluid tab-pane"><br>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h1 class="">Waterfalls</h1>
+                                                    <p>There are hundreds of waterfalls across Japan, and some of them, like the Nachi Waterfall, have been religious sites with long histories. Some waterfalls can only be accessed by hiking along nature trails, while others can be conveniently viewed from observation decks.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row my-4">
+                                                <div class="col-md">
+                                                    <h2 class="country">Nachi </h2>
+                                                    <p class="">TNachi Falls in Nachikatsuura, Wakayama Prefecture, Japan, is one of the best-known waterfalls in Japan. With a drop of 133 meters, it is the country's tallest water fall with single uninterrupted drop; however, the tallest waterfalls with multiple drops in Japan are Hannoki Falls, at 497 m, and Shōmyō Falls, at 350m.</p>
+                                                </div>
+                                                <div class="col-md">
+                                                    <img class="rounded img-fluid" src="Images/map/nanchi.jpeg" alt="Nachi waterfall image">
+                                                </div>
+                                            </div> 
+                                            <div class="row my-4">
+                                                <div class="col-md">
+                                                    <h2 class="country">Kegon</h2>
+                                                    <p class="">Kegon Falls is located at Lake Chūzenji in Nikkō National Park near the city of Nikkō, Tochigi Prefecture, Japan. The falls were formed when the Daiya River was rerouted by lava flows</p>
+                                                </div>
+                                                <div class="col-md">
+                                                    <img class="rounded img-fluid" src="Images/map/kegon.jpg" alt="Kegon waterfall image">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div> <!--END OF MAIN ROW-->
+
+                        </div>
+
+                    </div> <!--END CONTENT NATURAL FEATURES-->
+
+                </div> <!--END LAND TAB CONTENT-->
+
+            </main>
+            <!-- Footer -->
+            <footer class="page-footer mt-5">
+                <div class="Container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="fernando w-100 text-center py-3">Fernando Moser Pereira</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="alex w-100 text-center py-3">Alexander Kistner</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer -->
+        </div>
+
+    </body>
+</html>
